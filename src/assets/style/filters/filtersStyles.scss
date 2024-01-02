@@ -1,0 +1,29 @@
+.filters {
+    width: 250px;
+    // .filters__block
+    &__block {
+        display: grid;
+        grid-template-columns: 1fr;
+        &:not(:last-child) {
+            padding-bottom: 25px;
+            border-bottom: 1px solid #a39f9f;
+        }
+        &__block_brands {
+        }
+    }
+    // .filters__title
+    &__title {
+        font-size: 16px;
+        color: #1e779e;
+        margin-bottom: 20px;
+    }
+    // .filters__filter
+    &__filter {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+}
